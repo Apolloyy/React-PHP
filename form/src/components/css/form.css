@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #12162c;
+}
+
+#title {
+  text-align: center;
+}
+
+form {
+  width: 20rem;
+  height: fit-content;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+form,
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  gap: 0.25rem;
+}
+
+form,
+.input-back,
+.submit {
+  border: 1px solid #506ff8;
+  border-radius: 0.4rem;
+}
+
+.input-back {
+  width: 100%;
+  height: 2rem;
+  padding-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.input-text {
+  width: 100%;
+  height: 1.75rem;
+  outline: none;
+  background-color: transparent;
+  border: 0;
+}
+
+#title,
+label,
+span,
+.input-text,
+.submit {
+  color: #f6f6f6;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.line {
+  width: 10rem;
+  height: 1px;
+  background-color: #506ff8;
+}
+
+.submit {
+  background-color: transparent;
+  width: 5rem;
+  height: 2.25rem;
+  transition: all ease-in-out 0.3s;
+}
+
+.submit:hover {
+  background-color: #506ff8;
+}
+
+span,
+label {
+  font-size: 0.9rem;
+}
